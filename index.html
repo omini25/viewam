@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Viewam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online Events Made Easy" />
+    <meta name="keywords" content="Webinar, Tutoring, Confrence, Tutors, Online Class" />
+    <meta name="author" content="Toga Technology" />
+    <meta name="website" content="http://shreethemes.in" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="Images\favicon.ico">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons -->
+    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <!-- Slider -->
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+    <!-- Main Css -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+    <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
+
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Loader -->
+
+    <!-- Navbar STart -->
+    <header id="topnav" class="defaultscroll sticky">
+        <div class="container">
+            <!-- Logo container-->
+            <a class="logo" href="index.html">
+                <img src="" height="120" class="logo-light-mode" alt="">
+                <img src="" height="24" class="logo-dark-mode" alt="">
+            </a>
+            <div class="buy-button">
+                <a href="index.html" data-bs-toggle="modal" data-bs-target="#ContactForm" class="btn btn-primary"><i class="mdi mdi-phone"></i> Contact Us</a>
+                </a>
+            </div>
+            <!--end login button-->
+            <!-- End Logo container-->
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+            </div>
+
+            <div id="navigation">
+                <!-- Navigation Menu-->
+                <ul class="navigation-menu">
+                    <li><a href="#what-we-do" class="has-submenu parent-menu-item">What We Do</a></li>
+                    <li class="has-submenu parent-parent-menu-item">
+                        <a href="#feautures">Features</a>
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="#how-it-works">How it Works</a>
+
+                            <li class="has-submenu parent-parent-menu-item">
+                                <a href="#about-us">About Us</a>
+                            </li>
+                            <li class="has-submenu parent-menu-item">
+                                <a href="#faq">Faqs</a>
+                            </li>
+                </ul>
+                <!--end navigation menu-->
+                <div class="buy-menu-btn d-none">
+                    <a href="index.html" data-bs-toggle="modal" data-bs-target="#ContactForm" class="btn btn-primary"><i class="mdi mdi-phone"></i> Contact Us</a>
+                </div>
+                <!--end login button-->
+            </div>
+            <!--end navigation-->
+        </div>
+        <!--end container-->
+    </header>
+    <!--end header-->
+    <!-- Navbar End -->
+
+    <!-- Start Hero -->
+    <section class="bg-half-170 d-table w-100">
+        <div class="container">
+            <div class="row align-items-center position-relative" style="z-index: 1;">
+                <div class="col-lg-6">
+                    <div class="title-heading text-center text-lg-start">
+                        <h4 class="heading fw-bold mb-3 mt-3">Build your audience, <br> Grow your revenue, <br> For free</h4>
+                        <p class="para-desc text-muted mx-auto mx-lg-start mb-0">Create Webinars, Virtual Seminars, Virtual Confrences, Online Classes and more all in one place.</p>
+                        <div class="mt-3">
+                            <a href="index.html" data-bs-toggle="modal" data-bs-target="#LoginForm" class="btn btn-primary"><i class="mdi mdi-plus"></i> Join the Waitlist</a>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-6 mt-4 pt-2 mt-lg-0 pt-lg-0">
+                    <div class="card border-0 shadow rounded ms-lg-4 overflow-hidden"></div>
+                    <div class="d-flex p-2 bg-light justify-content-between align-items-center">
+                        <div>
+                            <a href="javascript:void(0)" class="text-danger"><i class="mdi mdi-circle"></i></a>
+                            <a href="javascript:void(0)" class="text-warning"><i class="mdi mdi-circle"></i></a>
+                            <a href="javascript:void(0)" class="text-success"><i class="mdi mdi-circle"></i></a>
+                        </div>
+
+                        <small class="fw-bold"><i class="mdi mdi-circle-medium text-success"></i> LIVE</small>
+                    </div>
+                    <div class="px-2 position-relative">
+                        <img src="images\Hero Image 1 no bg.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <!--end col-->
+        </div>
+        <!--end row-->
+        </div>
+        <!--end container-->
+    </section>
+    <!--end section-->
+    <!-- End Hero -->
+
+    <!-- Start -->
+    <section id="what-we-do" class="section bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="section-title text-center mb-4 pb-2">
+                        <h4 class="title mb-4">Create Events. Get Paid. Follow Up</h4>
+                        <p class="text-muted para-desc mb-0 mx-auto">Start working with <span class="text-primary fw-bold">Viewam</span> that can provide everything you need to generate revenue, drive traffic, connect.</p>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div class="row">
+                        <div class="col-md-6 mt-4 pt-2">
+                            <div class="d-flex features feature-clean p-4 bg-white shadow rounded">
+                                <div class="icons text-primary d-block text-center rounded">
+                                    <i class="uil uil-comment-verify d-block rounded h3 mb-0"></i>
+                                </div>
+                                <div class="flex-1 content ms-4">
+                                    <h5 class="mb-1"><a href="javascript:void(0)" class="text-dark">Content Publicity</a></h5>
+                                    <p class="text-muted mb-0">We make sure your audience know of your events.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-md-6 mt-4 pt-2">
+                            <div class="d-flex features feature-clean p-4 bg-white shadow rounded">
+                                <div class="icons text-primary d-block text-center rounded">
+                                    <i class=" uil uil-video d-block rounded h3 mb-0"></i>
+                                </div>
+                                <div class="flex-1 content ms-4">
+                                    <h5 class="mb-1"><a href="javascript:void(0)" class="text-dark">Recording</a></h5>
+                                    <p class="text-muted mb-0">Automatically record every event for use later or as a follow up feauture.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-md-6 mt-4 pt-2">
+                            <div class="d-flex features feature-clean p-4 bg-white shadow rounded">
+                                <div class="icons text-primary d-block text-center rounded">
+                                    <i class="uil uil-money-withdrawal d-block rounded h3 mb-0"></i>
+                                </div>
+                                <div class="flex-1 content ms-4">
+                                    <h5 class="mb-1"><a href="javascript:void(0)" class="text-dark">Manage Revenue</a></h5>
+                                    <p class="text-muted mb-0">We manage easily revenue from collecting for access to content to remmiting to you.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-md-6 mt-4 pt-2">
+                            <div class="d-flex features feature-clean p-4 bg-white shadow rounded">
+                                <div class="icons text-primary d-block text-center rounded">
+                                    <i class="uil uil-users-alt d-block rounded h3 mb-0"></i>
+                                </div>
+                                <div class="flex-1 content ms-4">
+                                    <h5 class="mb-1"><a href="javascript:void(0)" class="text-dark">Audience Management</a></h5>
+                                    <p class="text-muted mb-0">Manage your audience and follow-up with them, all in one place.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </section>
+
+    <!--Features Strat -->
+    <section id="feautures" class="section">
+        <div class="container mt-100 mt-60">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="section-title mb-4 pb-2">
+                        <h4 class="title mb-4">Features</h4>
+                        <p class="text-muted para-desc mx-auto mb-0">Some of the features <span class="text-primary fw-bold">Viewam</span> will provide.</p>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                    <div class="d-flex key-feature align-items-center p-3 rounded shadow">
+                        <div class="icon text-center rounded-circle me-3">
+                            <i data-feather="video" class="fea icon-ex-md text-primary"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="title mb-0">Live</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                    <div class="d-flex key-feature align-items-center p-3 rounded shadow">
+                        <div class="icon text-center rounded-circle me-3">
+                            <i data-feather="lock" class="fea icon-ex-md text-primary"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="title mb-0">Security</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                    <div class="d-flex key-feature align-items-center p-3 rounded shadow">
+                        <div class="icon text-center rounded-circle me-3">
+                            <i data-feather="film" class="fea icon-ex-md text-primary"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="title mb-0">Event Recording</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                    <div class="d-flex key-feature align-items-center p-3 rounded shadow">
+                        <div class="icon text-center rounded-circle me-3">
+                            <i data-feather="sliders" class="fea icon-ex-md text-primary"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="title mb-0">Automated Events</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                    <div class="d-flex key-feature align-items-center p-3 rounded shadow">
+                        <div class="icon text-center rounded-circle me-3">
+                            <i data-feather="bar-chart" class="fea icon-ex-md text-primary"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="title mb-0">Analytics</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                    <div class="d-flex key-feature align-items-center p-3 rounded shadow">
+                        <div class="icon text-center rounded-circle me-3">
+                            <i data-feather="dollar-sign" class="fea icon-ex-md text-primary"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="title mb-0">Free and Paid Events</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                    <div class="d-flex key-feature align-items-center p-3 rounded shadow">
+                        <div class="icon text-center rounded-circle me-3">
+                            <i data-feather="clock" class="fea icon-ex-md text-primary"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="title mb-0">Quick scheduling</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                    <div class="d-flex key-feature align-items-center p-3 rounded shadow">
+                        <div class="icon text-center rounded-circle me-3">
+                            <i data-feather="user-plus" class="fea icon-ex-md text-primary"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="title mb-0">Engagement</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                    <div class="d-flex key-feature align-items-center p-3 rounded shadow">
+                        <div class="icon text-center rounded-circle me-3">
+                            <i data-feather="message-circle" class="fea icon-ex-md text-primary"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="title mb-0">Private chat</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+
+                <div class="container mt-100 mt-60">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-12">
+                            <div class="sticky-bar">
+                                <div class="section-title text-lg-start text-center mb-4 mb-lg-0 pb-2 pb-lg-0">
+                                    <h4 class="title mb-4">Great Features</h4>
+                                    <p class="text-muted para-desc mb-0 mx-auto">When you start working with <span class="text-primary fw-bold">Viewam</span> these greate feautures would be available at your fingertips.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-lg-8 col-12">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-12 mt-4 mt-lg-0 pt-2 pt-lg-0">
+                                            <div class="card features fea-primary rounded p-4 bg-light position-relative overflow-hidden border-0">
+                                                <span class="h1 icon2 text-primary">
+                                                    <i class="uil uil-meeting-board"></i>
+                                                </span>
+                                                <div class="card-body p-0 content">
+                                                    <h5>Event Planning</h5>
+                                                    <p class="para text-muted mb-0">Either its a Webinar, Online Class, Online Confrence, we make the planning easy and effcient</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end col-->
+
+                                        <div class="col-12 mt-4 pt-2">
+                                            <div class="card features fea-primary rounded p-4 bg-light position-relative overflow-hidden border-0">
+                                                <span class="h1 icon2 text-primary">
+                                                    <i class="uil uil-schedule"></i>
+                                                </span>
+                                                <div class="card-body p-0 content">
+                                                    <h5>Event Scheduling</h5>
+                                                    <p class="para text-muted mb-0">The Event can be scheduled to any convinet time and date you want.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end col-->
+
+                                        <div class="col-12 mt-4 pt-2">
+                                            <div class="card features fea-primary rounded p-4 bg-light position-relative overflow-hidden border-0">
+                                                <span class="h1 icon2 text-primary">
+                                                    <i class="uil  uil-money-withdrawal"></i>
+                                                </span>
+                                                <div class="card-body p-0 content">
+                                                    <h5>Monetisation options</h5>
+                                                    <p class="para text-muted mb-0">You can create free events or create paid events in which only those that have paid for access would be able to view it.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end col-->
+                                    </div>
+                                    <!--end row-->
+                                </div>
+                                <!--end col-->
+
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                            <div class="card features fea-primary rounded p-4 bg-light position-relative overflow-hidden border-0">
+                                                <span class="h1 icon2 text-primary">
+                                                    <i class="uil uil-calender"></i>
+                                                </span>
+                                                <div class="card-body p-0 content">
+                                                    <h5>Multiple Scheduling</h5>
+                                                    <p class="para text-muted mb-0">You can schedule as may events as you want fro the same day or diffent days.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end col-->
+
+                                        <div class="col-12 mt-4 pt-2">
+                                            <div class="card features fea-primary rounded p-4 bg-light position-relative overflow-hidden border-0">
+                                                <span class="h1 icon2 text-primary">
+                                                    <i class="uil uil-presentation-plus"></i>
+                                                </span>
+                                                <div class="card-body p-0 content">
+                                                    <h5>Collaboration</h5>
+                                                    <p class="para text-muted mb-0">You can bring other presenters or collaborators, before or during your events.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end col-->
+
+
+                                    </div>
+                                    <!--end row-->
+                                </div>
+                                <!--end col-->
+                            </div>
+                            <!--end row-->
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </div>
+        </div>
+    </section>
+    <!--Feautures end-->
+
+
+    <!-- How It Works Start -->
+    <section id="how-it-works" class="section bg-light border-bottom mb-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="section-title mb-4 pb-2">
+                        <h4 class="title mb-4">How It Works</h4>
+                        <p class="text-muted para-desc mb-0 mx-auto">We built <span class="text-primary fw-bold">Viewam</span> to be a powerful tool but still easy to use and simple to understand.</p>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-6 mt-4 pt-2">
+                    <img class="img-fluid" src="Images\section 2 no bg.png" alt="">
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-7 col-md-6 mt-4 pt-2">
+                    <div class="section-title ms-lg-5">
+                        <h4 class="title mb-4">Change the way you create and manage online events</h4>
+                        <p class="text-muted">You can create events for online classes, webinars and confrences.</p>
+                        <ul class="list-unstyled text-muted">
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>You can create an event in minutes and set the access fee for your audience or make it free</li>
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>You then complete the event by providing the content either live or pre-recorded video or audio</li>
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>At the end of the event we provide follow up channels fro you and remmit the funds paid for the access if any. We only charge 10% of
+                                the fee</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+
+        <div class="container mt-4">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="section-title text-center mb-4 pb-2 mt-5">
+                        <h6 class="text-primary">Work Process</h6>
+                        <h4 class="title mb-4">How it Works in Three Steps</h4>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+
+            <div class="row">
+                <div class="col-md-4 mt-4 pt-2">
+                    <div class="card features feature-clean work-process bg-transparent process-arrow border-0 text-center">
+                        <div class="icons text-primary text-center mx-auto">
+                            <i class="uil uil-presentation-edit d-block rounded h3 mb-0"></i>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="text-dark">Create an Event</h5>
+                            <p class="text-muted mb-0">Create a schedule for either a live or pre-recorded content.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 mt-md-5 pt-md-3 mt-4 pt-2">
+                    <div class="card features feature-clean work-process bg-transparent process-arrow border-0 text-center">
+                        <div class="icons text-primary text-center mx-auto">
+                            <i class="uil uil-airplay d-block rounded h3 mb-0"></i>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="text-dark">Get Paid to View Event</h5>
+                            <p class="text-muted mb-0">Your audience pays for access to the content.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 mt-md-5 pt-md-5 mt-4 pt-2">
+                    <div class="card features feature-clean work-process bg-transparent d-none-arrow border-0 text-center">
+                        <div class="icons text-primary text-center mx-auto">
+                            <i class="uil uil-image-check d-block rounded h3 mb-0"></i>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="text-dark">Get Paid At the End of the Event</h5>
+                            <p class="text-muted mb-0">We remmit to you the fees recived, we remove 10% of the fee.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+        <div class="row justify-content-center mt-4 pt-3">
+            <div class="col-lg-8 col-md-10">
+                <img src="Images\Dashboard.png" class="img-fluid d-block mx-auto" alt="">
+                <p class="text-muted"><em> **this is not the final view of the product dashboard.</em></p>
+            </div>
+            <!--end col-->
+            <div class="col-12 text-center pt-2">
+            </div>
+            <!--end col-->
+        </div>
+        <!--end row-->
+
+    </section>
+    <!--end section-->
+    <!-- How It Work End -->
+
+    <!-- About Start -->
+    <section id="about-us" class="section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                    <div class="position-relative">
+                        <img src="Images\about us.png" class="rounded img-fluid mx-auto d-block" alt="">
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-7 col-md-7 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                    <div class="section-title ms-lg-4">
+                        <h4 class="title mb-4">About Us</h4>
+                        <p class="text-muted">We at <span class="text-primary fw-bold">Viewam</span> undertand the importance of creating a service that is effective at solving challenges in creating online events. We have worked with content creators accross diffent backgrounds
+                            to be able to know exactaly we should include in our project. We are a small team with large ambitions and always looking to innovate and find solutions to issues that affect everyday people.</p>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+        <!--About end-->
+        <div class="container mt-100 mt-60">
+            <div class="row align-items-center">
+                <div class="col-lg-7 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <div class="section-title">
+                        <h4 class="title mb-4">Test <br> with <span class="text-primary">Viewam.</span></h4>
+                        <p class="text-muted">We at Viewam are commited to creating a useable product and are always happy to allow users test the product.</p>
+                        <ul class="list-unstyled text-muted">
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Get access to beta product</li>
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Test the product and help us find fults</li>
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Help us improve our product</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-5 col-md-6 order-1 order-md-2">
+                    <div class="card rounded border-0 shadow ms-lg-5">
+                        <div class="card-body">
+                            <img src="Images\Mobile_notification_SVG.svg" alt="">
+
+                            <div class="content mt-4 pt-2">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Name : <span class="text-danger">*</span></label>
+                                                <div class="form-icon position-relative">
+                                                    <i data-feather="user" class="fea icon-sm icons"></i>
+                                                    <input type="text" class="form-control ps-5" placeholder="Name" name="name" required="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end col-->
+
+                                        <div class="col-lg-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Email : <span class="text-danger">*</span></label>
+                                                <div class="form-icon position-relative">
+                                                    <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                    <input type="email" class="form-control ps-5" placeholder="Email" name="email" required="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end col-->
+                                        <div class="col-lg-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Phone Number : </label>
+                                                <div class="form-icon position-relative">
+                                                    <i data-feather="phone" class="fea icon-sm icons"></i>
+                                                    <input type="text" class="form-control ps-5" placeholder="Phone Number" name="phone-number">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end col-->
+                                    </div>
+                                    <!--end col-->
+
+                                    <div class="col-lg-12 mt-2 mb-0">
+                                        <div class="d-grid">
+                                            <a href="javascript:void(0)" class="btn btn-primary">Send <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                                        </div>
+                                    </div>
+                                    <!--end col-->
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end col-->
+        </div>
+        <!--end row-->
+        </div>
+        <!--end container-->
+    </section>
+
+    <!-- FAQ n Contact Start -->
+    <section id="faq" class="section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="d-flex">
+                        <i data-feather="help-circle" class="fea icon-ex-md text-primary me-2 mt-1"></i>
+                        <div class="flex-1">
+                            <h5 class="mt-0">What does <span class="text-primary">Viewam</span> do?</h5>
+                            <p class="answer text-muted mb-0">We provide aplatform for users to create online events such as webinars, online confrences and online classes .</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <div class="d-flex">
+                        <i data-feather="help-circle" class="fea icon-ex-md text-primary me-2 mt-1"></i>
+                        <div class="flex-1">
+                            <h5 class="mt-0"> Is <span class="text-primary">Viewam</span> Free ?</h5>
+                            <p class="answer text-muted mb-0">View am is free but if you want to charge a fee to view an event the Viewam charges 10% of the total revenue generate.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-6 col-12 mt-4 pt-2">
+                    <div class="d-flex">
+                        <i data-feather="help-circle" class="fea icon-ex-md text-primary me-2 mt-1"></i>
+                        <div class="flex-1">
+                            <h5 class="mt-0"> Is <span class="text-primary">Viewam</span> Available Now ?</h5>
+                            <p class="answer text-muted mb-0">No. Viewam is still in developement stages but will soon be available, you can join our waitlist or contact us to find out when it would be available.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-6 col-12 mt-4 pt-2">
+                    <div class="d-flex">
+                        <i data-feather="help-circle" class="fea icon-ex-md text-primary me-2 mt-1"></i>
+                        <div class="flex-1">
+                            <h5 class="mt-0"> Is <span class="text-primary">Viewam</span> seeking to employ or partner ?</h5>
+                            <p class="answer text-muted mb-0">Yes we are open to employe and partmership with intrested individuals, just fill out the cotact form and we will reach out to you.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+
+            <div class="row my-md-5 pt-md-3 my-4 pt-2 pb-lg-4 justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="section-title">
+                        <h4 class="title mb-4">Have Question ? Get in touch!</h4>
+                        <p class="text-muted para-desc mx-auto">Start working with <span class="text-primary fw-bold">Viewam</span> that can provide everything you need to generate revenue, drive traffic, connect.</p>
+                        <a href="index.html" data-bs-toggle="modal" data-bs-target="#ContactForm" class="btn btn-primary"><i class="mdi mdi-phone"></i> Contact Us</a>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </section>
+    <!--end section-->
+    <div class="position-relative">
+        <div class="shape overflow-hidden text-footer">
+            <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M720 125L2160 0H2880V250H0V125H720Z" fill="currentColor"></path>
+            </svg>
+        </div>
+    </div>
+    <!-- FAQ n Contact End -->
+
+
+    <div class="modal fade" id="LoginForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content rounded shadow border-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Waitlist</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="bg-white p-3 rounded box-shadow">
+                        <p>We are coming soon. Please, Enter your e-mail and be the first to be notified.</p>
+                        <div class="input-group mb-3">
+                            <input name="email" id="email2" type="email" class="form-control" placeholder="Your Email :" required="">
+                            <button class="btn btn-primary submitBnt" type="submit" id="email">Join</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="ContactForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content rounded shadow border-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Contact Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="">
+                                <div class="card shadow rounded border-0">
+                                    <div class="card-body py-5">
+                                        <h4 class="card-title">Get In Touch !</h4>
+                                        <div class="custom-form mt-3">
+                                            <form method="post" name="myForm" onsubmit="return validateForm()">
+                                                <p id="error-msg" class="mb-0"></p>
+                                                <div id="simple-msg"></div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label class="form-label">Your Name <span class="text-danger">*</span></label>
+                                                            <div class="form-icon position-relative">
+                                                                <i data-feather="user" class="fea icon-sm icons"></i>
+                                                                <input name="name" id="name" type="text" class="form-control ps-5" placeholder="Name :">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                                            <div class="form-icon position-relative">
+                                                                <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                                <input name="email" id="email" type="email" class="form-control ps-5" placeholder="Email :">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--end col-->
+
+                                                    <div class="col-12">
+                                                        <div class="mb-3">
+                                                            <label class="form-label">Subject</label>
+                                                            <div class="form-icon position-relative">
+                                                                <i data-feather="book" class="fea icon-sm icons"></i>
+                                                                <input name="subject" id="subject" class="form-control ps-5" placeholder="subject :">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--end col-->
+
+                                                    <div class="col-12">
+                                                        <div class="mb-3">
+                                                            <label class="form-label">Comments <span class="text-danger">*</span></label>
+                                                            <div class="form-icon position-relative">
+                                                                <i data-feather="message-circle" class="fea icon-sm icons clearfix"></i>
+                                                                <textarea name="comments" id="comments" rows="4" class="form-control ps-5" placeholder="Message :"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="d-grid">
+                                                            <button type="submit" id="submit" name="send" class="btn btn-primary">Send Message</button>
+                                                        </div>
+                                                    </div>
+                                                    <!--end col-->
+                                                </div>
+                                                <!--end row-->
+                                            </form>
+                                        </div>
+                                        <!--end custom-form-->
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end col-->
+                        </div>
+                        <!--end row-->
+                    </div>
+                    <!--end container-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                    <a href="#" class="logo-footer">
+                        <img src="Images\VIEWAM-removebg-preview.png" height="120" alt="">
+                    </a>
+                    <p class="mt-4">Create Events. Get Paid. Follow Up</p>
+                    <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                    </ul>
+                    <!--end icon-->
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+
+
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+
+
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <h5 class="text-light footer-head">Newsletter</h5>
+                    <p class="mt-4">Sign up and receive the latest news via email.</p>
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="foot-subscribe mb-3">
+                                    <label class="form-label">Write your email <span class="text-danger">*</span></label>
+                                    <div class="form-icon position-relative">
+                                        <i data-feather="mail" class="fea icon-sm icons"></i>
+                                        <input type="email" name="email" id="emailsubscribe" class="form-control ps-5 rounded" placeholder="Your email : " required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="d-grid">
+                                    <input type="submit" id="submitsubscribe" name="send" class="btn btn-soft-primary" value="Subscribe">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </footer>
+    <!--end footer-->
+    <footer class="footer footer-bar">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <div class="text-sm-start">
+                        <p class="mb-0">©
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script> Viewam. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https//:toga.com.ng" target="_blank" class="text-reset">Toga Technology</a>.</p>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </footer>
+    <!--end footer-->
+    <!-- Footer End -->
+
+    <!-- Back to top -->
+    <a href="#" onclick="topFunction()" id="back-to-top" class="btn btn-icon btn-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
+    <!-- Back to top -->
+
+
+
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- SLIDER -->
+    <script src="js/tiny-slider.js "></script>
+    <!-- Icons -->
+    <script src="js/feather.min.js"></script>
+    <!-- Main Js -->
+    <script src="js/plugins.init.js"></script>
+    <!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+    <script src="js/app.js"></script>
+    <!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+</body>
+
+</html>
